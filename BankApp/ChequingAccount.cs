@@ -8,7 +8,7 @@ namespace BankApp
 {
     class ChequingAccount : Account
     {
-        public ChequingAccount(double currentBalance, double interestRate) : base(currentBalance, interestRate)
+        public ChequingAccount(double startBalance, double interestRate) : base(startBalance, interestRate)
         {
 
         }

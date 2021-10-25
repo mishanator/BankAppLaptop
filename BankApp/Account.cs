@@ -17,9 +17,9 @@ namespace BankApp
         protected double interestRate;
         protected double serviceCharge;
         protected AccountEnum Activity { get; set; }
-        public Account(double currentBalance, double interestRate)
+        public Account(double startBalance, double interestRate)
         {
-            this.currentBalance = currentBalance;
+            this.currentBalance += startBalance;
             this.interestRate = interestRate;
         }
         public void CalculateInterest()

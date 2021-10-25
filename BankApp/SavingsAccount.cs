@@ -8,7 +8,7 @@ namespace BankApp
 {
     class SavingsAccount : Account
     {
-        public SavingsAccount(double currentBalance, double interestRate) : base(currentBalance,interestRate)
+        public SavingsAccount(double startBalance, double interestRate) : base(startBalance,interestRate)
         {
           
         }
